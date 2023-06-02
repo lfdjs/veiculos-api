@@ -6,7 +6,7 @@ O Banco de dados utilizado para esta aplicação é o SQLite, cujo arquivo encon
 
 A aplicação ja está totalmente configurada, desta forma para rodar a aplicação basta digitar o seguinte comando no terminal: `npm run dev`. A aplicação está pré-configurada para rodar na porta 3333.
 
-Esta aplicação contém um arquivo que contém um script de testes dos endpoints, que está localiado no caminho `src/test/test.js`.
+Esta aplicação contém um arquivo que contém um script de testes dos endpoints, que está localizado no caminho `src/test/test.js`.
  
 É importante que toda vez ao rodar o script de teste por meio do comando `npm test` realizar a alteração da variável id para verificar ids diferentes a cada teste realizado, quando se tratar dos endpoints que exigem o argumento id.
 
