@@ -4,7 +4,7 @@ let should = chai.should();
 const server = 'http://localhost:3333';
 
 // Para cada teste a ser realizado que exija parâmetro com id e que retorne status 200, altere esta variável
-let id = "3";
+let id = "4";
 
 //Id utilizado para realizar os testes de veículo não encontrado
 let idErrorTest = 1000

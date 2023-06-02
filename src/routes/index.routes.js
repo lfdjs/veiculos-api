@@ -12,4 +12,3 @@ router.route("/:id")
     .delete(veiculoController.delete)// Exclui o veículo
     ;
 module.exports = router;
-//export default router;
