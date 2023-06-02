@@ -8,7 +8,7 @@ A aplicação ja está totalmente configurada, desta forma para rodar a aplicaç
 
 Esta aplicação contém um arquivo que contém um script de testes dos endpoints, que está localizado no caminho `src/test/test.js`.
  
-É importante que toda vez ao rodar o script de teste por meio do comando `npm test` realizar a alteração da variável id para verificar ids diferentes a cada teste realizado, quando se tratar dos endpoints que exigem o argumento id.
+É importante realizar a alteração da variável id no arquivo `test.js` para verificar ids diferentes a cada teste realizado, quando se tratar dos endpoints que exigem o argumento id toda vez ao rodar o script de teste por meio do comando `npm test`.
 
 Esta api também contém uma documentação de todos os endpoints, que pode ser acessada pelo link http://localhost:3333/doc
 
