@@ -1,0 +1,164 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API Veículos",
+    "description": ""
+  },
+  "host": "localhost:3333/api/veiculos",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Listar todos os veículos cadastrados",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      },
+      "post": {
+        "description": "Cadastrar um novo veículo",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "placa": {
+                  "example": "AAA1234"
+                },
+                "chassi": {
+                  "example": "CFGHR32458"
+                },
+                "renavam": {
+                  "example": "123456789"
+                },
+                "modelo": {
+                  "example": "Modelo"
+                },
+                "marca": {
+                  "example": "Marca"
+                },
+                "ano": {
+                  "example": "2023"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/{id}": {
+      "get": {
+        "description": "Lista apenas um veículo conforme id apresentado como argumento",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "put": {
+        "description": "Altera dados do veículo conforme id apresentado como argumento",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "placa": {
+                  "example": "AAA1234"
+                },
+                "chassi": {
+                  "example": "CFGHR32458"
+                },
+                "renavam": {
+                  "example": "123456789"
+                },
+                "modelo": {
+                  "example": "Modelo"
+                },
+                "marca": {
+                  "example": "Marca"
+                },
+                "ano": {
+                  "example": "2023"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "description": "Exclui um veículo conforme id apresentado como argumento",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  }
+}
