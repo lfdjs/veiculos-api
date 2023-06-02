@@ -4,7 +4,7 @@ Esta aplicação consiste em uma api simples que realiza o CRUD(CREATE, READ, UP
 
 O Banco de dados utilizado para esta aplicação é o SQLite, cujo arquivo encontra-se na raiz da aplicação.
 
-A aplicação ja está totalmente configurada, desta forma para rodar a aplicação basta digitar o seguinte comando no terminal: `npm run dev`
+A aplicação ja está totalmente configurada, desta forma para rodar a aplicação basta digitar o seguinte comando no terminal: `npm run dev`. A aplicação está pré-configurada para rodar na porta 3333.
 
 Esta aplicação contém um arquivo que contém um script de testes dos endpoints, que está localiado no caminho `src/test/test.js`.
  
