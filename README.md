@@ -12,5 +12,5 @@ Esta aplicação contém um arquivo que contém um script de testes dos endpoint
 
 Esta api também contém uma documentação de todos os endpoints, que pode ser acessada pelo link http://localhost:3333/doc
 
-Para o teste desta api com os dados apresentados em uma aplicação font-end, pode ser utilizada a aplicação desenvolvida com angular, que pode ser encontrada por meio do seguinte link: `https://github.com/lfdjs/veiculos-frontend`.
+Para o teste desta api com os dados apresentados em uma aplicação font-end, pode ser utilizada a aplicação desenvolvida com angular, que pode ser encontrada por meio do seguinte link: https://github.com/lfdjs/veiculos-frontend.
 
