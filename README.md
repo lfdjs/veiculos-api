@@ -2,7 +2,7 @@
 
 Esta aplicação consiste em uma api simples que realiza o CRUD(CREATE, READ, UPDATE, DELETE) de dados de veículos.
 
-O Banco de dados utilizado para esta aplicação foi o SQLite, cujo arquivo encontra-se na raiz da aplicação.
+O Banco de dados utilizado para esta aplicação é o SQLite, cujo arquivo encontra-se na raiz da aplicação.
 
 A aplicação ja está totalmente configurada, desta forma para rodar a aplicação basta digitar o seguinte comando no terminal: `npm run dev`
 
