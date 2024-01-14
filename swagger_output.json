@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "REST API Veículos",
+    "title": "REST API",
     "description": ""
   },
-  "host": "localhost:3333/api/veiculos",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
     "http"
@@ -13,7 +13,7 @@
   "paths": {
     "/": {
       "get": {
-        "description": "Listar todos os veículos cadastrados",
+        "description": "",
         "parameters": [],
         "responses": {
           "200": {
@@ -25,36 +25,8 @@
         }
       },
       "post": {
-        "description": "Cadastrar um novo veículo",
-        "parameters": [
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "placa": {
-                  "example": "AAA1234"
-                },
-                "chassi": {
-                  "example": "CFGHR32458"
-                },
-                "renavam": {
-                  "example": "123456789"
-                },
-                "modelo": {
-                  "example": "Modelo"
-                },
-                "marca": {
-                  "example": "Marca"
-                },
-                "ano": {
-                  "example": "2023"
-                }
-              }
-            }
-          }
-        ],
+        "description": "",
+        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
@@ -67,7 +39,7 @@
     },
     "/{id}": {
       "get": {
-        "description": "Lista apenas um veículo conforme id apresentado como argumento",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -89,7 +61,7 @@
         }
       },
       "put": {
-        "description": "Altera dados do veículo conforme id apresentado como argumento",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -104,22 +76,22 @@
               "type": "object",
               "properties": {
                 "placa": {
-                  "example": "AAA1234"
+                  "example": "any"
                 },
                 "chassi": {
-                  "example": "CFGHR32458"
+                  "example": "any"
                 },
                 "renavam": {
-                  "example": "123456789"
+                  "example": "any"
                 },
                 "modelo": {
-                  "example": "Modelo"
+                  "example": "any"
                 },
                 "marca": {
-                  "example": "Marca"
+                  "example": "any"
                 },
                 "ano": {
-                  "example": "2023"
+                  "example": "any"
                 }
               }
             }
@@ -138,7 +110,7 @@
         }
       },
       "delete": {
-        "description": "Exclui um veículo conforme id apresentado como argumento",
+        "description": "",
         "parameters": [
           {
             "name": "id",
