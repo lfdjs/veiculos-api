@@ -1,6 +1,7 @@
 const Veiculo = require("../models/veiculoModel");
 
 //export default 
+
 module.exports = {
     // Retornar todos os veículos cadastrados
     async all(req, res) {
